@@ -1,0 +1,24 @@
+seed: 42
+data_dir: generated_dataset
+output_dir: checkpoints
+epochs: 20
+patience: 5
+batch_size: 16
+num_workers: 0
+image_size: 320
+validation_fraction: 0.15
+test_fraction: 0.15
+pretrained: true
+mixed_precision: true
+backbone_learning_rate: 0.00001
+head_learning_rate: 0.0001
+min_learning_rate: 0.0000001
+weight_decay: 0.0001
+label_smoothing: 0.05
+loss_weights:
+  family: 1.0
+  spokes: 1.0
+  center: 1.0
+  finish: 1.0
+  regression: 1.0
+resume: null

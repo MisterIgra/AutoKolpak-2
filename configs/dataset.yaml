@@ -1,0 +1,4 @@
+schema_version: 2
+generator_version: "4.0.0"
+image_size: 320
+data_dir: generated_dataset
